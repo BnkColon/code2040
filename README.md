@@ -76,7 +76,7 @@ Code: [5datinggame.py](https://github.com/BnkColon/code2040/blob/master/5datingg
 
 Great job so far. The last challenge is a little different. You’re going to work with dates and times.
 
-The API will again give you a dictionary. The value for datestamp is a string, formatted as an ISO 8601 datestamp. The value for interval is a number of seconds.
+The API will again give you a dictionary. The value for datestamp is a string, formatted as an [ISO 8601 datestamp](https://en.wikipedia.org/wiki/ISO_8601). The value for interval is a number of seconds.
 
 You’re going to add the interval to the date, then return the resulting date to the API. POST your token here:
 http://challenge.code2040.org/api/dating
