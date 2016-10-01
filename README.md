@@ -3,6 +3,7 @@ Tech Assessment for the CODE2014 application
 
 # Step I: Registration
 Code: [1resgister.py](https://github.com/BnkColon/code2040/blob/master/1register.py)
+
 To get started, you’re first going to connect to the registration endpoint. It lives here:
 http://challenge.code2040.org/api/register
 
@@ -53,6 +54,7 @@ Hint: You’ll probably use a loop to solve this one.
 
 # Step IV: Prefix
 Code: [4prefix.py](https://github.com/BnkColon/code2040/blob/master/4prefix.py)
+
 Great job -- but we’re not done with collections.
 
 In this challenge, the API is going to give you another dictionary. The first value, prefix, is a string. The second value, array, is an array of strings. Your job is to return an array containing only the strings that do not start with that prefix.
