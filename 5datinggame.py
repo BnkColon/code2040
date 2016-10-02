@@ -42,11 +42,10 @@ print type(datestamp), type(interval)
 mytime = datetime.datetime.strptime(datestamp,'%Y-%m-%dT%H:%M:%SZ')
 
 # Add the interval
-newTime = datetime.datetime.strptime('0000-00-00T00:00:00Z','%Y-%m-%dT%H:%M:%SZ')
-newTime += timedelta(seconds = interval)
+mytime += timedelta(seconds = interval)
 
 # Convert to ISO 8601
-result = newTime.strftime("%Y-%m-%dT%H:%M:%SZ")
+result = mytime.strftime("%Y-%m-%dT%H:%M:%SZ")
 
 # Send the result 
 urlValidation= 'http://challenge.code2040.org/api/dating/validate'
