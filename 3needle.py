@@ -16,9 +16,10 @@ conn = urllib.urlopen(urlGetDictionary, data)
 getDictionary = conn.read()
 dictionary = ast.literal_eval(getDictionary)
 
-# Validate
+# URL to validate the code
 urlValidation= 'http://challenge.code2040.org/api/haystack/validate'
 word = dictionary["needle"]
+# Get the index of the word in array
 getIndex=dictionary['haystack'].index(word)
 data2 = urllib.urlencode({"token": token, "needle": getIndex})
 conn2 = urllib.urlopen(urlValidation, data2)
