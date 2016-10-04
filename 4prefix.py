@@ -33,11 +33,13 @@ r = requests.post(urlGetDictionary, json = d) # request
 dictionary = json.loads(r.text)
 print type(dictionary)
 
-# Create new array
+# Save the keys/results provided
 prefix = dictionary['prefix']
 print prefix
 array = dictionary['array']
 print array
+
+# Create new array
 newArray = [] 
 for k in array:
 	if k.startswith(prefix):
