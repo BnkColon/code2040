@@ -32,7 +32,7 @@ print '-------------'
 print type(dictionary) # <type 'dict'>
 print dictionary # {u'datestamp': u'2016-10-21T09:56:33Z', u'interval': 125303}
 
-# Get Take the keys
+# Save the keys/results provided
 datestamp = dictionary['datestamp']
 interval = dictionary['interval']
 print datestamp, interval
@@ -47,7 +47,7 @@ mytime += timedelta(seconds = interval)
 # Convert to ISO 8601
 result = mytime.strftime("%Y-%m-%dT%H:%M:%SZ")
 
-# Send the result 
+# Send the result and validate
 urlValidation= 'http://challenge.code2040.org/api/dating/validate'
 d = {"token": token, "datestamp": result}
 print d
