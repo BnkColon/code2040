@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 # Step II: Reverse a string
+#$ python 2reverse.py <token>
 
 import urllib
 import sys
