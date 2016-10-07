@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 #Step III: Needle in a haystack
+#$ python 3needle.py <token>
 
 import urllib
 import ast
