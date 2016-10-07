@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 # Step I: Registration
+#$ python 1register.py <token>
 
 import urllib
 import json
