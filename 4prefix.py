@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 # Step IV: Prefix
+#$ python 4prefix.py <token>
 
 import requests # http://docs.python-requests.org/en/master/user/quickstart/
 import json
