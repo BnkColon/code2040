@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 # Step V: The dating game
+#$ python 5datinggame.py <token>
 
 import requests # http://docs.python-requests.org/en/master/user/quickstart/
 import sys
