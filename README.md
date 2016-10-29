@@ -1,5 +1,5 @@
 # code2040
-Tech Assessment for the CODE2014 application
+Tech Assessment for the CODE2040 application for Summer 2017
 
 # Step I: Registration
 Code: [1resgister.py](https://github.com/BnkColon/code2040/blob/master/1register.py)
